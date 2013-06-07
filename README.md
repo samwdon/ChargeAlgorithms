@@ -2,7 +2,7 @@ Charging Algorithms
 ================
 
 # About
-This repository is part of a research project that I worked on for a semester with [@samwdon](https://github.com/samwdon) through the School of Engineering and Applied Sciences at Washington University in St. Louis.  The goal of the project was to test different scheduling and queueing algorithms to determine which is most effective in charging electric vehicles.  To test the algorithms, we built out this entire simulation and then compared their performance on a few different metrics.
+This repository is part of a research project that I worked on for a semester with [@andhess](https://github.com/andhess) through the School of Engineering and Applied Sciences at Washington University in St. Louis.  The goal of the project was to test different scheduling and queueing algorithms to determine which is most effective in charging electric vehicles.  To test the algorithms, we built out this entire simulation and then compared their performance on a few different metrics.
 
 # Simulation
 The simulation operates in discrete time at intervals of 1 minute.  Before running an algorithm, we simulate a window in which vehicles will arrive, and then iterate through the simulation minute by minute.  The arrival of vehicles is based on a poisson distribution, which is easily changeable.  In our model, we commonly change the value of the arrival rate, which is the frequency of occurrences of our distribution.
@@ -50,4 +50,4 @@ In main.py, you will have to define some components of your simulation: how many
 main.py will take in an integer, which is the interval of time that vehicles can arrive.
 
 # More Information
-A full write up on our findings plus a better explanation of this model will be available on a separate website soon.  In the meantime, please email hess@wustl.edu with any questions.
+A full write up on our findings plus a better explanation of this model will be available on a separate website soon.  In the meantime, please email sam.donohue@wustl.edu or my research partner andrew (hess@wustl.edu) with any questions.
